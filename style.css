@@ -1,0 +1,72 @@
+input:required{
+    border: 2px solid rgb(8, 62, 240);
+}
+input:optional{
+    margin: 3rem;
+    
+}
+input:checked{
+    margin: 3rem;
+    
+}
+br:empty{
+    line-height: 3rem;
+}
+p::selection{
+    background: rgb(82, 182, 112);
+    color: red;
+}
+p::first-letter{
+    font-size: 3rem;
+}
+p:hover{
+    background: rgb(135, 70, 196);
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+}
+p::after{
+    content: "adasdasdasdvcse";
+    padding-left: 3rem;
+    font-size: 1rem;
+    color: rgb(0, 0, 0);
+}
+h1::selection{
+    color: rgb(172, 60, 79);
+    background: rgb(0, 162, 255);
+}
+h1::first-letter{
+    color: royalblue;
+    font-size: 5vh;
+    background-color: rgb(113, 124, 224);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.itema{
+    display: flex;
+    justify-content: center;
+    background: rgb(130, 91, 202);
+    width: 100%;
+}
+.itemb{
+    display: flex;
+    justify-content: center;
+    background: rgb(68, 61, 161);
+    padding: 2rem;
+    width: 100%;
+}
+.itemc{
+    display: flex;
+    justify-content: center;
+    background: rgb(85, 125, 211);
+    padding: 2rem;
+    width: 100%;
+}
+.texst{
+    text-align: center;
+    font-size: 1rem;
+    background: rgb(0, 0, 0);
+    width: 100%;
+}
